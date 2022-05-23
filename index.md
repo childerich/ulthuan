@@ -18,7 +18,7 @@ What you do you need:
 Like in any decent strategy game, there is a strategic map where you move your armies, build cities and infrastructure etc. with a limited amount of Action Points (AP). When armies end their turn on the same province, a battle is fought in Warhammer Total War and the winner usually gets the province. For winning battles and various other things you get victory points (VP). Depending on the victory point progress various special events are triggered. And there still is the plague, that might get out of control if you don't collectivly establish some basic hygiene rules...
 
 ## The Map
-You find a map of Ulthuan separated in 36 provinces in the maps folder. It's made by hand with a lot of love but unfortunately not a lot of skill, so feel free to modify or make up your own if you prefer. We used this map as the first page of our google doc-presantation, stole some coloured icons (armies, cities, control etc.) from the internet that could be copied&pasted and moved around and we where ready to go.
+You find a map of Ulthuan separated in 36 provinces in the maps folder. It's made by hand with a lot of love but unfortunately not a lot of skill, so feel free to modify or make up your own if you prefer. We used this map as the first page of our google doc-presentation, stole some coloured icons (armies, cities, control etc.) from the internet that could be copied&pasted and moved around and we where ready to go.
 
 ## Turn Sequence
 Every turn represents a month in Ulthuan. We tried to play one turn every real time week, with a set appointment of a game night every tuesday when all the battles are fought and the bookkeeping for the next turn is done - but use whatever fits for your group.s Every Turn consists of the following steps:
@@ -27,11 +27,68 @@ Every turn represents a month in Ulthuan. We tried to play one turn every real t
 2. ***Production***: All Mines, Harbours and Shrines of all players produce now. Owners of sanctuaries have to decide if they produce AP or VP now. Then check if all the players can still pay the upkeep of their armies and roll on the ["Where is our Pay??"](#pay) table if not.
 3. ***Random Events***: In current Turn order, roll a D66 for every player and evaluate the [Random Event](#events)
 4. ***Trade***: Prisoners of war can be exchanged, freed or executed, Magic Items traded. If you want to relocate your capital, now is the time.
-5. ***Action Phase***: Every player starts with 3 AP (Action Points) by default. The 1st player in the Turn order uses all his or her AP, then the 2nd etc. s
-6. ***Battles***:  
+5. ***Action Phase***: Every player starts with 3 AP (Action Points) by default. The 1st player in the Turn order uses all his or her AP, then the 2nd etc. 
+6. ***Battles***: All battles are preferably fought on the game night together. If you can't make it, you can always nominate another player es replacement or let AI fight (difficulty hard)
+
+## Victory Points and special Events
+*You should define for yourself what VP represent for your faction, what are you actually looking for in Ulthuan? Treasure, Elven artifacts, warpstone, shimmering gargbage - there is enough for everyone*
+Whenever the first player reaches a specific amount of VP, a special event is triggered at the end of the turn:
+- 6 VP: Lothern
+- 13 VP: Shrine of Khaine
+- 21 VP: Vaults Anvil
+- 30 VP Gaean Vale
+- 40 VP: Isle of the dead / the Final battle
+
+## Actions
+
+## Movement
+
+## Armies
+
+## Buildings
+
+## Creep
+
+## Battles
+
+## Prisoners
+
+## Game Setup
+
+## Restart
+
+## The Capital
+
+## Misc rules
 
 ## The Plague Bar {#plague}
 
 ### Where is our Pay?? {#pay}
 
 ## Random Events {#events}
+
+## Spoils of war
+
+## Defeat
+
+## Retreat
+
+## 1st Special: Lothern
+### Mode of play
+### Bounty
+
+## 2nd Special: Altar of Khaine
+### Mode of play
+### Bounty
+
+## 3rd Special: Vaults Anvil
+### Mode of play
+### Bounty
+
+## 4th Special: Gaean Vale
+### Mode of play
+### Bounty
+
+## The Final Battle: Isle of the Dead
+
+
