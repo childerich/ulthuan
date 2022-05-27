@@ -82,22 +82,32 @@ Per default, every player has 3 AP (Action Points) per Turn. 1AP can be spent fo
 
 ## Retreat
 
-## 1st Special: Lothern
+## 1st Special: Lothern {special1}
 ### Mode of play
 ### Bounty
 
-## 2nd Special: Altar of Khaine
+## 2nd Special: Altar of Khaine {special2}
 ### Mode of play
 ### Bounty
 
-## 3rd Special: Vaults Anvil
+## 3rd Special: Vaults Anvil {special3}
 ### Mode of play
 ### Bounty
 
-## 4th Special: Gaean Vale
+## 4th Special: Gaean Vale {special4}
 ### Mode of play
 ### Bounty
 
-## The Final Battle: Isle of the Dead
-
-
+## The Final Battle: Isle of the Dead {special5}
+The battle of the isle of the dead is the final of the campaign and determines the glorious winner. It’s triggered at the end of the turn in which any player reaches or exceeds 40VP. Alternatively, if you want to or have to end the campaign early, just fight it at any point in the campaign - if all players agree of course. 
+### Fluff
+insert fluff here
+### Mode of play
+It happens in the following steps:
+1. *Muster your forces*: all players pick their favourite army. Remaining gold and magic items can be traded and invested for the last time.
+2. Rank all players by their current VP decending.
+3. Now play a normal pitched battle between the last and the second last player. Calculate the difference in VP between the two players. For every point difference, roll a D6 and multiply the result by 100 - the higher ranking player can now buy temporary reinforcements using that many gold. The reinforcements disappear after the battle. Note that the 75% rule still applies.
+4. If the lower ranking player wins the battle, ***the VP of the two players are switched***. The campaign is now over for the loosing player. 
+5. The winner now plays a battle against the next player in the ranking exactly as desribed at (3) - potentially using their newly achieved VP when the strength difference of the higher ranking player is calculated.
+6. Repeat 3&4 until every player has played at least one battle
+7. The player with the most VP now is in control of the maelstorm and wins the campaign. 
