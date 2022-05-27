@@ -61,6 +61,13 @@ The following movement rules apply to all movements, independant if its your own
 - If you move on a field with another fortress, city or army (not garrison): If any of the owners wishes, your movement is over and the army stays there. If the owner is creep, they will stop you unless you have friendly relations.
 
 ## Armies
+Newly trained armies have a value of 10000 gold. Their exact composition is undefined until they fight their 1st battle, afterwards the composition may not be changed and has to be made public to all players. Armies have to abide the unit caps for balanced play. RoR (Regiments of Renown) Units and named charakters may be used, but are only allowed in a single army (of one player) at a time. Gold can be spent at any time to buy adtional units or upgrades for an army. 
+Every player can support one army, +1 per city under their control. Consequently, in the beginning every player can support two armies. If a player recruits although beeing at the upkeep limit, she or he has to immedeately disband another army. If a player has too many armies for another reason (eg loosing a city), they have to nominate which armies they stop paying. These armies have to roll on the following "Where is our pay" table every turn until the upkeep is established again.
+Armies with undefined composition are affected differently by negative effects: If the leader dies they get -500 points, if they have to roll on the defeat table they loose 250 gold instead.
+
+### Where is our Pay?? D6 {#pay}
+1. **
+
 
 ## Buildings
 
@@ -80,7 +87,7 @@ The following movement rules apply to all movements, independant if its your own
 
 ## The Plague Bar {#plague}
 
-### Where is our Pay?? {#pay}
+
 
 ## Random Events {#events}
 
