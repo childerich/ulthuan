@@ -38,7 +38,7 @@ Whenever the first player reaches a specific amount of VP, a special event is tr
 - 13 VP: Shrine of Khaine
 - 21 VP: Vaults Anvil
 - 30 VP Gaean Vale
-- 40 VP: Isle of the dead / the Final battle
+- 40 VP: [Isle of the dead / the Final battle](#special5)
 
 ## Actions
 Per default, every player has 3 AP (Action Points) per Turn. 1AP can be spent for:
@@ -51,6 +51,14 @@ Per default, every player has 3 AP (Action Points) per Turn. 1AP can be spent fo
 - ***Diplomacy***: Either improve your own relation with a creep nation of your choice by 1 (and gift them gold if you like to) or lower the relations of another player with a creep nation of your choice by 1 
 
 ## Movement
+The following movement rules apply to all movements, independant if its your own or a creep army and if the movement is triggered my an action or by an event.
+- You can move up to three connected map fields far, but all the movement has to be spend on one army
+- Mountains cannot be crossed
+- An army can only be moved once per turn
+- There is no limit to the number of armies allowed on one field
+- Water fields can only be entered from a friendly harbour field. 
+- Movement cannot be ended on a water field
+- If you move on a field with another fortress, city or army (not garrison): If any of the owners wishes, your movement is over and the army stays there. If the owner is creep, they will stop you unless you have friendly relations.
 
 ## Armies
 
@@ -82,23 +90,23 @@ Per default, every player has 3 AP (Action Points) per Turn. 1AP can be spent fo
 
 ## Retreat
 
-## 1st Special: Lothern {special1}
+## 1st Special: Lothern {#special1}
 ### Mode of play
 ### Bounty
 
-## 2nd Special: Altar of Khaine {special2}
+## 2nd Special: Altar of Khaine {#special2}
 ### Mode of play
 ### Bounty
 
-## 3rd Special: Vaults Anvil {special3}
+## 3rd Special: Vaults Anvil {#special3}
 ### Mode of play
 ### Bounty
 
-## 4th Special: Gaean Vale {special4}
+## 4th Special: Gaean Vale {#special4}
 ### Mode of play
 ### Bounty
 
-## The Final Battle: Isle of the Dead {special5}
+## The Final Battle: Isle of the Dead {#special5}
 The battle of the isle of the dead is the final of the campaign and determines the glorious winner. It’s triggered at the end of the turn in which any player reaches or exceeds 40VP. Alternatively, if you want to or have to end the campaign early, just fight it at any point in the campaign - if all players agree of course. 
 ### Fluff
 insert fluff here
