@@ -26,7 +26,7 @@ You find a map of Ulthuan separated in 36 provinces in the maps folder. It's mad
 Every turn represents a month in Ulthuan. We tried to play one turn every real time week, with a set appointment of a game night every tuesday when all the battles are fought and the bookkeeping for the next turn is done - but use whatever fits for your group. Every Turn consists of the following steps:
 
 1. ***Plague of NUrgle***: Roll a D3 and move the [Plague Bar](#plague) down by the amount, to a minimum of -10. Then increase it by one for every action point the players have invested into hygiene measures in the previous turn. For every hygiene measure, the player can now declare himself immune against a single effect of the plague of Nurgle for this turn. Then activate all the effects of the plague, starting at 0 and ending at the effect with the current marker
-2. ***Production***: All mines, harbours and shrines of all players produce now. Owners of sanctuaries have to decide if they produce AP or VP. Then check if all the players can still pay the upkeep of their armies and roll on the ["Where is our Pay??"](#pay) table if not.
+2. ***Production***: All mines, harbours and shrines of all players produce now. Owners of sanctuaries have to decide if they produce AP or VP. Then check if all the players can still pay the upkeep of their armies or have to disband armies.
 3. ***Random Events***: In current Turn order, roll a D66 for every player and evaluate the [Random Event](#events)
 4. ***Trade***: Prisoners of war can be exchanged, freed or executed, Magic Items traded. If you want to relocate your capital, now is the time.
 5. ***Action Phase***: Every player starts with 3 AP (Action Points) by default. The 1st player in the Turn order uses all his or her AP, then the 2nd etc. The Turn order will stay the same for most of the campaign, but the starting player rotates every turn, meaning that who went 1st goes last next turn, who went 2nd goes 1st etc. 
@@ -63,11 +63,8 @@ The following movement rules apply to all movements, independant if its your own
 
 ## Armies
 Newly trained armies have a value of 10000 gold. Their exact composition is undefined until they fight their 1st battle, afterwards the composition may not be changed and has to be made public to all players. Armies have to abide the unit caps for balanced play. RoR (Regiments of Renown) Units and named charakters may be used, but are only allowed in a single army (of one player) at a time. Gold can be spent at any time to buy adtional units or upgrades for an army. 
-Every player can support one army, +1 per city under their control. Consequently, in the beginning every player can support two armies. If a player recruits although beeing at the upkeep limit, she or he has to immedeately disband another army. If a player has too many armies for another reason (eg loosing a city), they have to nominate which armies they stop paying. These armies have to roll on the following "Where is our pay" table every turn until the upkeep is established again.
+Every player can support one army, +1 per city under their control. Consequently, in the beginning every player can support two armies. If a player recruits although beeing at the upkeep limit, she or he has to immedeately disband another army. If a player has too many armies for another reason (eg loosing a city) in the production phase, they have to disband armies until the upkeep limit is reached.
 Armies with undefined composition are affected differently by negative effects: If the leader dies they get -500 points, if they have to roll on the defeat table they loose 250 gold instead.
-
-### Where is our Pay?? D6 {#pay}
-1. **
 
 
 ## Buildings
@@ -79,11 +76,28 @@ Only one building is usually allowed per field.
 - ***Harbour***: Can only be built on coast (fields touching a water field). Allows entering water fields from this field. Produces 100g per turn
 	- can be upgraded to a ***Shipyard***: Produces 200g instead, moving armies on water fields from here doesn't count as moving a field.
 - ***Mine***: Can only be built inland (fields touching a mountain). Produces 1D6 x 100 gold per turn. If the modified roll is 1 or less, the building gets destroyed instead.
-	- can be upgraded to a ***Mining Town***: you may roll the D6 once per turn but have to accept the 2nd result. 
-
-## Creep
+	- can be upgraded to a ***Mining Town***: you may reroll the D6 once per turn but have to accept the 2nd result. 
 
 ## Battles
+
+
+## Creep
+### Creep Factions
+There is no such thing as an unoccupied field in Ulthuan, every field that doesn't belong to a player belongs to a "creep faction". Creep factions can own (multiple) fields but only act very limited unless influenced by a human player. For every creep nation you need to keep track of the following things (we've put a matrix-table in our google presentation for this):
+- the warhammer faction
+- their gold reserves - 0 for new factions
+- their diplomatic relations with all human players - 0 for new factions
+### Diplomacy
+Diplomatic relations per player can be improved and lowered (also below 0) by random events and by investing AP. They are also automaticly lowered by 1 per battle a player fights against a creep faction in a field owned by that faction. If relations are >0, they are considered friendly which allows a player to move their armies, use their infrastructure and only fight them on his own will. All creep nations are considered to have relations 0 with each other.
+### Battles agains creep
+Creep always fights with randomly generated armies. Controlled either by a hard AI, or by a volonteer player - if several players want to fight, the player with the best diplomatic relations gets to go. The player controlling the creep is *bound by honour* to try to win the battle for the creep - if this concept doesn't work for your group, pick a different one (or, new friends). The Creep army has 10k gold +/- the current gold reserves of the faction. But never less than 9k gold and never more than 1000 gold more than the opponent.
+If a creep army looses a battle, they don't roll for defeat&retreat but get -500 gold reserves insteads
+TBC
+
+
+
+
+
 
 ## Prisoners
 
@@ -101,7 +115,13 @@ Only one building is usually allowed per field.
 
 ## Random Events {#events}
 
-## Spoils of war
+## Spoils of war (D6)
+1. *Glorious Victory*: You get +D3 VP
+2. *Rich Bounty*: You get +D6 x 100 gold
+3. *Veteran Troops*: One unit in your army my be promoted to max experience level.
+4. *Living Heroes*: You may replace one unit in your army with their RoR aequivalent (if that exists, ignore equipment options)
+5. *My kingdom for a dragon*: The Leader of the army or any hero may freely pick a ability, spell or magic item from the equipment options. They can also choose the cheapest mount instead or replace their current mount by the next more expensice option.
+6. *Too many options*: pick freely from the options 1-5
 
 ## Defeat
 
