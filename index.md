@@ -19,13 +19,14 @@ This is a set  of rules for an epic digital warhammer multiplayer campaign. The 
 Like in any decent strategy game, there is a strategic map where you move your armies, build cities and infrastructure etc. with a limited amount of Action Points (AP). When armies end their turn on the same province, a battle is fought in Warhammer Total War and the winner usually gets the province. For winning battles and various other things you get victory points (VP). Depending on the victory point progress various special events are triggered. And there still is the plague, that might get out of control if you don't collectivly establish some basic hygiene rules...
 
 ## The Map
+![The Map](https://github.com/childerich/ulthuan/blob/gh-pages/maps/ulthuan_final.JPG)
 You find a map of Ulthuan separated in 36 provinces in the maps folder. It's made by hand with more love than skill, so feel free to modify or make up your own if you prefer. If you are lazy copy this map as the first page of our google doc-presentation, steal some coloured icons (armies, cities, control etc.) from the internet that can be copied&pasted and moved around and you are ready to go.
 
 ## Turn Sequence
 Every turn represents a month in Ulthuan. We tried to play one turn every real time week, with a set appointment of a game night every tuesday when all the battles are fought and the bookkeeping for the next turn is done - but use whatever fits for your group. Every Turn consists of the following steps:
 
 1. ***Plague of NUrgle***: Roll a D3 and move the [Plague Bar](#plague) down by the amount, to a minimum of -10. Then increase it by one for every action point the players have invested into hygiene measures in the previous turn. For every hygiene measure, the player can now declare himself immune against a single effect of the plague of Nurgle for this turn. Then activate all the effects of the plague, starting at 0 and ending at the effect with the current marker
-2. ***Production***: All ,ines, harbours and shrines of all players produce now. Owners of sanctuaries have to decide if they produce AP or VP. Then check if all the players can still pay the upkeep of their armies and roll on the ["Where is our Pay??"](#pay) table if not.
+2. ***Production***: All mines, harbours and shrines of all players produce now. Owners of sanctuaries have to decide if they produce AP or VP. Then check if all the players can still pay the upkeep of their armies and roll on the ["Where is our Pay??"](#pay) table if not.
 3. ***Random Events***: In current Turn order, roll a D66 for every player and evaluate the [Random Event](#events)
 4. ***Trade***: Prisoners of war can be exchanged, freed or executed, Magic Items traded. If you want to relocate your capital, now is the time.
 5. ***Action Phase***: Every player starts with 3 AP (Action Points) by default. The 1st player in the Turn order uses all his or her AP, then the 2nd etc. The Turn order will stay the same for most of the campaign, but the starting player rotates every turn, meaning that who went 1st goes last next turn, who went 2nd goes 1st etc. 
@@ -70,6 +71,15 @@ Armies with undefined composition are affected differently by negative effects: 
 
 
 ## Buildings
+Only one building is usually allowed per field.
+- ***Fortress***: You can always defend that field with a garrison (10k random army of your faction). If you defend a field with a garrison with your own army, this army gets temporarily +1000 Gold. Blocks enemy movents as described in the movement rules.
+	- can be upgraded to a ***City***: As a fortress but the garrison is 11k gold and a defending army gets +2000 gold. Allows you to support an additional army
+- ***Shrine***: Produces 1 VP per turn.
+	- can be upgraded to a ***Sanctuary***: owner can decide to produce 1 AP instead of 1 VP
+- ***Harbour***: Can only be built on coast (fields touching a water field). Allows entering water fields from this field. Produces 100g per turn
+	- can be upgraded to a ***Shipyard***: Produces 200g instead, moving armies on water fields from here doesn't count as moving a field.
+- ***Mine***: Can only be built inland (fields touching a mountain). Produces 1D6 x 100 gold per turn. If the modified roll is 1 or less, the building gets destroyed instead.
+	- can be upgraded to a ***Mining Town***: you may roll the D6 once per turn but have to accept the 2nd result. 
 
 ## Creep
 
