@@ -87,13 +87,20 @@ There is no such thing as an unoccupied field in Ulthuan, every field that doesn
 - the warhammer faction
 - their gold reserves - 0 for new factions
 - their diplomatic relations with all human players - 0 for new factions
+
 ### Diplomacy
 Diplomatic relations per player can be improved and lowered (also below 0) by random events and by investing AP. They are also automaticly lowered by 1 per battle a player fights against a creep faction in a field owned by that faction. If relations are >0, they are considered friendly which allows a player to move their armies, use their infrastructure and only fight them on his own will. All creep nations are considered to have relations 0 with each other.
+
 ### Battles agains creep
 Creep always fights with randomly generated armies. Controlled either by a hard AI, or by a volonteer player - if several players want to fight, the player with the best diplomatic relations gets to go. The player controlling the creep is *bound by honour* to try to win the battle for the creep - if this concept doesn't work for your group, pick a different one (or, new friends). The Creep army has 10k gold +/- the current gold reserves of the faction. But never less than 9k gold and never more than 1000 gold more than the opponent.
-If a creep army looses a battle, they don't roll for defeat&retreat but get -500 gold reserves insteads
-TBC
+If a creep army looses a battle, they don't roll for defeat&spoils of war but get -500 / +500 gold reserves instead - even when fighting with a garrison. They don't roll for defeat but their army marker is immedeatly destroyed when it looses a battle. Creep can defend every field with a garrison (this does not block movement) independant of the position of their army marker. Creep can support 1 army, if a creep faction with at least 1 field has no army marker in the production phase of a turn, a new one is spawnded at a randomly determined field they own. 
 
+### Creep Buildings
+Buildings controlled by creep have slightly different effects. To represent their primitive nature, they treat all upgraded buildings as their base version.
+- ***Fortress***: +1000 gold for defending this field. Blocks unfriendly movents as described in the movement rules.
+- ***Shrine***: Produces 1 VP per turn. This is accumulated on the field and is collected by the next human player to control the field in the production phase. 
+- ***Harbour***: Allows entering water fields from this field. Produces 50g per turn. This is accumulated on the field and is collected by the next human player to control the field in the production phase. 
+- ***Mine***: Produces 200 gold per turn. This is accumulated on the field and is collected by the next human player to control the field in the production phase. 
 
 
 
@@ -102,8 +109,18 @@ TBC
 ## Prisoners
 
 ## Game Setup
+The map has 36 normal fields(the islands are closed in the beginning) an should be initially populated by 12 factions with 3 fields each. All slots not taken by human players are taken by creep factions. Randomly bring all human players in an order - this is the order of play and should be noted down prominently. Now the first player announces her faction, places his capital, an army marker and a control marker on an empty field of their choice. Then she puts a control marker on 2 other empty fields next to the capital. Repeat this process for all human players in turn order. 
+When thr last player placed her capital, she creates a creep faction of her liking by placing a fortress, an army and a control marker on an empty field. 2 more control markers have to be put on empty fields; next to an existing one if possible but as the map might be quite fractured at that point it, freely pick an empty field if neccessary. Then repeat this in reverse turn order until all 36 fields are taken.
+
 
 ## Restart
+The campaign is intended to be fought until the bitter end with all players - there is no way to knock a player out of the game permanently. As this process might take a long while, players annoyed or simply bored with their faction choice also need a chance to try something new. If you prefer to play hardcore, simply ignore this chapter but this might not balance well...
+At the beginning of their turn, a player can decide to abandon their current faction and restart. This can only be done if the player doesn't have a capital
+ any more or didn't pull of a restart in the last 5 turns. The restart uses all the AP of the player for this turn and can be executed in two different ways. Pick one:
+ - *political marriage* take over an existing creep faction with their fields, their buildings and a fresh 10k point army at the position of their army marker.
+ - *invasion* pick a new faction that is more to your liking. Pick a normal coastal field without a capital. Remove all buildings and control markers from this field, add your own control marker, your capital and 2 fresh 10k gold armies. 
+
+The player looses all his current gold, but keeps his VP and position in the turn order. Then roll a D6, the player looses that many VP. Then multiply the result by 400, the player gains that many gold. The old faction of the player now forms a new creep faction controlling all the fields and buildings but loosing all their armies. The diplomatic relations of the new creep faction with all players as well as the relations of the player with all creep factions are set to 0. 
 
 ## The Capital
 
@@ -115,7 +132,7 @@ TBC
 
 ## Random Events {#events}
 
-## Spoils of war (D6)
+## Spoils of war (1D6)
 1. *Glorious Victory*: You get +D3 VP
 2. *Rich Bounty*: You get +D6 x 100 gold
 3. *Veteran Troops*: One unit in your army my be promoted to max experience level.
@@ -123,9 +140,22 @@ TBC
 5. *My kingdom for a dragon*: The Leader of the army or any hero may freely pick a ability, spell or magic item from the equipment options. They can also choose the cheapest mount instead or replace their current mount by the next more expensice option.
 6. *Too many options*: pick freely from the options 1-5
 
-## Defeat
+## Defeat! (1D6)
+1. *Eternal Shame *: You loose 1 VP
+2. *Severe Losses*: The next battle this army fights, you have tp leave one unit of your choice at home.
+3. *Green Troops*: All units in this army loose all their promotions.
+4. *Massacre*: You permanently loose one unit of your choice from this army
+5. *Curse of Bukephalos*: The Leader of the army looses an abilty, spell or magic item of your choice or the mount is replaced by the next cheaper option.
+6. *Learn from your mistakes*: The army composition is considered as undefined and can be changed freely until the next battle (with same gold value of course)
 
-## Retreat
+## Retreat (1D6)
+1. *Armageddon*: The army is disbanded. The general is dead.
+2. *Shameful surrender*: Retreat 1 field. The General is taken prisoner by the victor
+3. *Deep wounds*: Retreat 1 field. The General is injured an misses the next battle
+4. *Huh?*: Retreat 1 field. 
+5. *Huh?*: Retreat 1 field. 
+6. *Part of a bigger plan*: Immideatly make a normal movement with this army as if this was your turn.
+
 
 ## 1st Special: Lothern {#special1}
 ### Mode of play
