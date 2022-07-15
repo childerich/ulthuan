@@ -1,4 +1,4 @@
-# Ulthuan - WIP
+# Basics
 
 ## How this plays
 
@@ -22,6 +22,16 @@ Like in any decent strategy game, there is a strategic map where you move your a
 ![The Map](https://github.com/childerich/ulthuan/blob/gh-pages/maps/ulthuan_final.JPG)
 You find a map of Ulthuan separated in 36 provinces in the maps folder. It's made by hand with more love than skill, so feel free to modify or make up your own if you prefer. If you are lazy copy this map as the first page of our google doc-presentation, steal some coloured icons (armies, cities, control etc.) from the internet that can be copied&pasted and moved around and you are ready to go.
 
+## Victory Points and special Events
+*You should define for yourself what VP represent for your faction, what are you actually looking for in Ulthuan? Treasure, Elven artifacts, warpstone, shimmering garbage - there is enough for everyone*
+Whenever the first player reaches a specific amount of VP, a special event is triggered at the end of the turn:
+- 6 VP: Lothern
+- 13 VP: Shrine of Khaine
+- 21 VP: Vaults Anvil
+- 30 VP Gaean Vale
+- 40 VP: [Isle of the dead / the Final battle](#special5)
+
+# The Turn
 ## Turn Sequence
 Every turn represents a month in Ulthuan. We tried to play one turn every real time week, with a set appointment of a game night every tuesday when all the battles are fought and the bookkeeping for the next turn is done - but use whatever fits for your group. Every Turn consists of the following steps:
 
@@ -32,14 +42,6 @@ Every turn represents a month in Ulthuan. We tried to play one turn every real t
 5. ***Action Phase***: Every player starts with 3 AP (Action Points) by default. The 1st player in the Turn order uses all his or her AP, then the 2nd etc. The Turn order will stay the same for most of the campaign, but the starting player rotates every turn, meaning that who went 1st goes last next turn, who went 2nd goes 1st etc. 
 6. ***Battles***: All battles are preferably fought on the game night together. If you can't make it, you can always nominate another player as replacement or let the AI fight (difficulty hard)
 
-## Victory Points and special Events
-*You should define for yourself what VP represent for your faction, what are you actually looking for in Ulthuan? Treasure, Elven artifacts, warpstone, shimmering garbage - there is enough for everyone*
-Whenever the first player reaches a specific amount of VP, a special event is triggered at the end of the turn:
-- 6 VP: Lothern
-- 13 VP: Shrine of Khaine
-- 21 VP: Vaults Anvil
-- 30 VP Gaean Vale
-- 40 VP: [Isle of the dead / the Final battle](#special5)
 
 ## Actions
 Per default, every player has 3 AP (Action Points) per Turn. 1AP can be spent for:
@@ -64,7 +66,7 @@ The following movement rules apply to all movements, independant if its your own
 ## Armies
 Newly trained armies have a value of 10000 gold. Their exact composition is undefined until they fight their 1st battle, afterwards the composition may not be changed and has to be made public to all players. Armies have to abide the unit caps for balanced play. RoR (Regiments of Renown) Units and named charakters may be used, but are only allowed in a single army (of one player) at a time. Gold can be spent at any time to buy adtional units or upgrades for an army. 
 Every player can support one army, +1 per city under their control. Consequently, in the beginning every player can support two armies. If a player recruits although beeing at the upkeep limit, she or he has to immedeately disband another army. If a player has too many armies for another reason (eg loosing a city) in the production phase, they have to disband armies until the upkeep limit is reached.
-Armies with undefined composition are affected differently by negative effects: If the leader dies they get -500 points, if they have to roll on the defeat table they loose 250 gold instead.
+Armies with undefined composition are affected differently by negative effects by random events and the plague: If the leader dies they get -500 points, if they have to roll on the defeat table they loose 250 gold instead.
 
 
 ## Buildings
@@ -79,8 +81,21 @@ Only one building is usually allowed per field.
 	- can be upgraded to a ***Mining Town***: you may reroll the D6 once per turn but have to accept the 2nd result. 
 
 ## Battles
+When the last player has finished the action phase, it is finally time to fight some battles!
+### The battle phase TODO
+1. before the fighting starts, players can make free last minute defensive moves to defend their territory (and create more battles). This is done in turn order. A defensive move can be done by any army that is standing on a own field that has no other player or unfriendly creep army and is adjacent to another own field with at least one other player or creep army. The army is moved to that field, and the player has to demand a battle on that field
+2. then, again in turn order, players declare which of their armies demands a battle against other armies or garrisons on the same field. Creep armies always demand battles against non-friendly armies or garrisons. If at least one side wants to fight, a battle will be fought. TODO unclear situations more than 2 armies
+3. fight all the battles in any order you like. The winner rolls on the spoils of war- , the loser on the defeat-table
+4. now any player that has an army that didnt loose a battle this turn on a field of another player can take over that field TODO
+5. finally, all armies that lost a battle this turn have to roll on the retreat-table 
+
+### Fighting a standard battle
+Open a multiplayer battle in Warhammer Total War 2. Both players load their army setup and declare the gold value of their army in case they did any last minute shopping. Now compare the gold values of the 2 armies, if one army is more than 25% bigger than the other, the smaller armies may buy temporary reinforcements or promotions TODO
 
 
+## The Plague Bar {#plague}
+
+# Other Game Concepts
 ## Creep
 ### Creep Factions
 There is no such thing as an unoccupied field in Ulthuan, every field that doesn't belong to a player belongs to a "creep faction". Creep factions can own (multiple) fields but only act very limited unless influenced by a human player. For every creep nation you need to keep track of the following things (we've put a matrix-table in our google presentation for this):
@@ -104,10 +119,6 @@ Buildings controlled by creep have slightly different effects. To represent thei
 
 
 
-
-
-## Prisoners
-
 ## Game Setup
 The map has 36 normal fields(the islands are closed in the beginning) an should be initially populated by 12 factions with 3 fields each. All slots not taken by human players are taken by creep factions. Randomly bring all human players in an order - this is the order of play and should be noted down prominently. Now the first player announces her faction, places his capital, an army marker and a control marker on an empty field of their choice. Then she puts a control marker on 2 other empty fields next to the capital. Repeat this process for all human players in turn order. 
 When thr last player placed her capital, she creates a creep faction of her liking by placing a fortress, an army and a control marker on an empty field. 2 more control markers have to be put on empty fields; next to an existing one if possible but as the map might be quite fractured at that point it, freely pick an empty field if neccessary. Then repeat this in reverse turn order until all 36 fields are taken.
@@ -124,12 +135,13 @@ The player looses all his current gold, but keeps his VP and position in the tur
 
 ## The Capital
 
+## Prisoners
+
 ## Misc rules
 
-## The Plague Bar {#plague}
 
 
-
+# Tables
 ## Random Events {#events}
 
 ## Spoils of war (1D6)
