@@ -134,7 +134,7 @@ At the beginning of their turn, a player can decide to abandon their current fac
 The player looses all his current gold, but keeps his VP and position in the turn order. Then roll a D6, the player looses that many VP. Then multiply the result by 400, the player gains that many gold. The old faction of the player now forms a new creep faction controlling all the fields and buildings but loosing all their armies. The diplomatic relations of the new creep faction with all players as well as the relations of the player with all creep factions are set to 0. 
 
 ## The Capital
-
+test
 ## Prisoners
 
 ## Misc rules
